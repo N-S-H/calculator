@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+/** CSS variables **/
+:root {
+  --cp1: #6e85b7;
+  --cp2: #b2c8df;
+  --cp3: #c4d7e0;
+  --cp4: #f8f9d7;
+}
+
+.bg1 {
+  background-color: var(--cp1) !important;
+}
+.bg2 {
+  background-color: var(--cp2) !important;
+}
+
+.bg3 {
+  background-color: var(--cp3) !important;
+}
+
+.hov-eff:hover {
+  background-color: var(--cp4) !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.height-inc-5 {
+  height: 5vh;
+}
+
+.height-inc-7 {
+  height: 7vh;
+}
+
+.height-inc-3 {
+  height: 3vh;
+}
+
+.bord-1 {
+  border: 1px solid var(--cp4);
+}
+
+#calc-display-text {
+  float: right;
+  font-size: 2em;
+}
